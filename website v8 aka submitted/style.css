@@ -1,0 +1,69 @@
+body 
+{
+	background-color: #AAAAAA ;
+}
+
+h1 
+{
+	color: #111;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 28;
+}
+
+p
+{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 16; 
+}
+
+form
+{
+	text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #111;
+}
